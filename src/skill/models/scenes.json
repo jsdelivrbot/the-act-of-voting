@@ -1,0 +1,382 @@
+[
+  {
+    "id": 0,
+    "color": "default",
+    "isHidden": false,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Welcome",
+      "text": "Welcome to The Act of Voting. To learn how to use this skill, say \"Help\".",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Welcome to The Act of Voting. To learn how to use this skill, say \"Help\".",
+      "prompt": "When you are ready, say \"Begin\"."
+    },
+    "options": [
+      {
+        "utterances": [
+          "begin"
+        ],
+        "sceneId": 1
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "color": "default",
+    "isHidden": false,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Welcome",
+      "text": "Hi, I’m John Keefe, senior editor for data news at WNYC, and I’m here to teach you about the Act of Voting. The recent 2016 presidential election shows that voting is a complicated and controversial process. I can simplify any questions or concerns you have about the process of voting. At any time, you can say “exit skill” to stop talking to me.",
+      "prompt": "When you're ready to begin, say \"let's talk\".",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Intro.mp3\"/>",
+      "prompt": "When you're ready to begin, say \"let's talk\"."
+    },
+    "options": [
+      {
+        "sceneId": 2,
+        "utterances": [
+          "continue"
+        ]
+      },
+      {
+        "sceneId": 12,
+        "utterances": [
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Topics",
+      "text": "You can ask me questions about the process of voting, counting votes, or the electoral college.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Part+After+Intro.mp3\"/>",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 3,
+        "utterances": [
+          "process of voting"
+        ]
+      },
+      {
+        "sceneId": 4,
+        "utterances": [
+          "counting votes"
+        ]
+      },
+      {
+        "sceneId": 5,
+        "utterances": [
+          "electoral college"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "The Process of Voting",
+      "text": "Voting in the United States is a two-step process. There is no national list of eligible voters, so a citizen must first qualify by becoming registered. Citizens register to vote where they live; if they move to a new location, they have to register again at their new address. Registration systems were designed to eliminate fraud, but the procedures for registering voters vary from state to state.\nTo vote, you go to your designated polling place and vote with either a paper ballot or an electronic ballot.",
+      "prompt": "Of course, not everyone can vote. Would you like to learn which group of Americans can vote?",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Process+of+Voting+%231.mp3\"/>",
+      "prompt": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Process+of+Voting+%232.mp3\"/>"
+    },
+    "options": [
+      {
+        "sceneId": 6,
+        "utterances": [
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Counting votes",
+      "text": "There are 8,000 precincts where the population votes. The process of counting votes may involve over 1 million (!) people across the country.\nNowadays, computers are used to print receipts with the number of votes for each candidate on them.\nFor mail-in, absentee and paper ballots, officials ensure that signatures match the one on file and count them by an optical-scan readers.",
+      "prompt": "Even with the advanced technology, pundits complain that vote counting is not as accurate as possible. Would you like to hear about how officials maintain the integrity of a vote?",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Counting+Votes+%231.mp3\"/>\n<audio src=\"https://s3.amazonaws.com/theactofvoting/Counting+Votes+%232.mp3\"/>",
+      "prompt": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Counting+Votes+%233.mp3\"/>"
+    },
+    "options": [
+      {
+        "sceneId": 8,
+        "utterances": [
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "The Electoral College",
+      "text": "Excellent Choice. First of all, what is the Electoral College?",
+      "prompt": "Some states have a larger impact over others. Would you like to hear which states dominate the election?",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Electoral+College+%231.mp3\"/>",
+      "prompt": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Electoral+College+%232.mp3\"/>"
+    },
+    "options": [
+      {
+        "sceneId": 10,
+        "utterances": [
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Who Can Vote?",
+      "text": "You are eligible to vote if you are at least 18 years old and are a U.S. Citizen\nYou also have to be registered in your state of residence",
+      "prompt": "But some people don’t live in their home state, so it can be hard to vote. Would you like to hear about how they submit their votes?",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Process+of+Voting+%233.mp3\"/>",
+      "prompt": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Process+of+Voting+%234.mp3\"/>"
+    },
+    "options": [
+      {
+        "sceneId": 7,
+        "utterances": [
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Absentee Voting",
+      "text": "Because the United States conducts elections through local election officials rather than federal ones, you have to vote in your state.\nIf you do not live in your state or are out of state for the election, you can submit an absentee ballot, which you send through the mail if you cannot be present for the election in your state.",
+      "prompt": "Now that we’ve covered this topic, let’s get back to the other main topics. Say “continue” to proceed.",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Process+of+Voting+%235.mp3\"/>",
+      "prompt": "<audio src=\"https://s3.amazonaws.com/theactofvoting/-Would+you+like+to+go+back+to+other+topics-.mp3\"/>"
+    },
+    "options": []
+  },
+  {
+    "id": 8,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Integrity of the Vote",
+      "text": "Poll workers are often overseen by election officials to make sure they are accountable and fair in allowing/disallowing people from voting.\nAt a minimum, there's a right of candidates and anyone with a question of the ballot to observe at every point or even request for a recount.",
+      "prompt": "Of course, no system is perfect. There have been many documented cases of controversy over the counting of votes.  Would you like to hear about one?",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Counting+Votes+%234.mp3\"/>",
+      "prompt": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Counting+Votes+%235.mp3\"/>"
+    },
+    "options": [
+      {
+        "sceneId": 9,
+        "utterances": [
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Counting Controversy",
+      "text": "The most famous case of controversy over vote counting occurred in 2000, when the Florida vote was ultimately settled in Republican George W. Bush’s favor over Democrat Al Gore by a margin of 547 votes. \nThe Florida Supreme Court proposed a recount, with critics pointing to invalidated overseas absentee ballots and election official corruption as reasons for improper voting that swayed votes.\nIn the end, the U.S. Supreme Court ruled against the recount proposition, giving George W. Bush the Electoral Votes needed to become the 44th President of the United States.",
+      "prompt": "Now that we’ve covered this topic, let’s get back to the other main topics. Say “continue” to proceed.",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Counting+Votes+%236.mp3\"/>",
+      "prompt": "<audio src=\"https://s3.amazonaws.com/theactofvoting/-Would+you+like+to+go+back+to+other+topics-.mp3\"/>"
+    },
+    "options": []
+  },
+  {
+    "id": 10,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "States With Most Electoral College Votes",
+      "text": "California has the most electoral college voters with 55. Texas is second with 38, followed by New York and Florida with 29. \nBecause a candidate needs 270 electoral votes to win, winning these big states can often mean winning the election -- but not always.",
+      "prompt": "Although bigger states like California are a must-win for presidential candidates, smaller states often times play the biggest role in deciding an election. Would you like to hear about these so-called “swing states?”",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Electoral+College+%233-1.mp3\"/>",
+      "prompt": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Electoral+College+%233-2.mp3\"/>"
+    },
+    "options": [
+      {
+        "sceneId": 11,
+        "utterances": [
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Swing States",
+      "text": "A swing state is a state where votes could feasibly go either way between the two main parties, Republican or Democrat.  Therefore, electioneers spend a lot of effort campaigning in these states, as opposed to other states that tend to always vote for one party.\nThe most competitive states are Wisconsin, Pennsylvania, New Hampshire, Ohio, Florida, Michigan and North Carolina.",
+      "prompt": "So there are two views on the Electoral College; some people would prefer a simple popular vote whereas others enjoy that the Electoral College gives rural areas more of a say in elections. Would you like to hear about the Electoral College system?",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Electoral+College+%234.mp3\"/>",
+      "prompt": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Electoral+College+%235.mp3\"/>"
+    },
+    "options": [
+      {
+        "sceneId": 13,
+        "utterances": [
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "color": "default",
+    "isHidden": true,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "No",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 13,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "The Electoral College System",
+      "text": "",
+      "prompt": "Now that we’ve covered this topic, let’s get back to the other main topics. Say “continue” to proceed.",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "<audio src=\"https://s3.amazonaws.com/theactofvoting/Electoral+College+%236.mp3\"/>",
+      "prompt": "<audio src=\"https://s3.amazonaws.com/theactofvoting/-Would+you+like+to+go+back+to+other+topics-.mp3\"/>"
+    },
+    "options": []
+  }
+]

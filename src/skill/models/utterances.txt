@@ -1,0 +1,30 @@
+UnrecognizedIntent ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+ResetStateIntent reset skill
+ResetStateIntent start again
+ResetStateIntent reset
+RestoreStateIntent resume skill
+RestoreStateIntent resume
+RepeatOptionsIntent repeat options
+RepeatSceneIntent repeat scene
+RepeatSceneIntent repeat
+GoBackIntent go back
+AMAZON.HelpIntent help
+AMAZON.StopIntent exit skill
+AMAZON.CancelIntent exit skill
+BeginIntent begin
+ContinueIntent continue
+NoIntent no
+ProcessOfVotingIntent process of voting
+CountingVotesIntent counting votes
+ElectoralCollegeIntent electoral college
+YesIntent yes
+YesIntent yes
+YesIntent yes
+YesIntent yes
+YesIntent yes
+YesIntent yes
+YesIntent yes

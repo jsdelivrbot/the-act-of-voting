@@ -1,0 +1,52 @@
+{
+  "intents": [
+    {
+      "intent": "UnrecognizedIntent"
+    },
+    {
+      "intent": "ResetStateIntent"
+    },
+    {
+      "intent": "RestoreStateIntent"
+    },
+    {
+      "intent": "RepeatOptionsIntent"
+    },
+    {
+      "intent": "RepeatSceneIntent"
+    },
+    {
+      "intent": "GoBackIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "BeginIntent"
+    },
+    {
+      "intent": "ContinueIntent"
+    },
+    {
+      "intent": "NoIntent"
+    },
+    {
+      "intent": "ProcessOfVotingIntent"
+    },
+    {
+      "intent": "CountingVotesIntent"
+    },
+    {
+      "intent": "ElectoralCollegeIntent"
+    },
+    {
+      "intent": "YesIntent"
+    }
+  ]
+}
